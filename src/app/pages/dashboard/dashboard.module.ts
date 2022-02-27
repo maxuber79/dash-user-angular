@@ -8,6 +8,8 @@ import { InicioComponent } from './inicio/inicio.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ReportesComponent } from './reportes/reportes.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { CrearUsuarioComponent } from './usuarios/crear-usuario/crear-usuario.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -16,12 +18,16 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
     InicioComponent,
     NavbarComponent,
     ReportesComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    CrearUsuarioComponent,
+	
   ],
   imports: [
     CommonModule,
     DashboardRoutingModule,
-		SharedModule
+		SharedModule,
+		FormsModule,
+		ReactiveFormsModule,
   ]
 })
 export class DashboardModule { }
