@@ -1,0 +1,135 @@
+{
+  "users" : [
+		{
+    "academicoId" : "001",
+    "apellido" : "McFly",
+    "area" : "Facultad de Ciencias",
+    "company" : "Universidad Mayor",
+    "email" : "mmcfly@gmail.com",
+    "password" : "admin123",
+    "nombre" : "Marty Seamus",
+    "status" : true,
+    "username" : "marty"
+  },
+	{
+    "academicoId" : "002",
+    "apellido" : "McFly",
+    "area" : "Facultad de Artes",
+    "company" : "Universidad Mayor",
+    "email" : "gmcfly@gmail.com",
+    "password" : "admin123",
+    "nombre" : "George Douglas",
+    "status" : true,
+    "username" : "George"
+  }, 
+	{
+    "academicoId" : "003",
+    "apellido" : "Brown",
+    "area" : "Facultad de Humanidades",
+    "company" : "Universidad Mayor",
+    "email" : "ebrown@gmail.com",
+    "password" : "admin123",
+    "nombre" : "Dr. Emmett Brown",
+    "status" : true,
+    "username" : "Brown"
+  }, 
+	{
+    "academicoId" : "004",
+    "apellido" : "Skywalker",
+    "area" : "Centro de Biología Integrativa",
+    "company" : "Universidad Mayor",
+    "email" : "akywalker@gmail.com",
+    "password" : "admin123com",
+    "nombre" : "Anakin",
+    "status" : true,
+    "username" : "akywalker"
+  }, 
+	{
+    "academicoId" : "005",
+    "apellido" : "Solo",
+    "area" : "Centro de Investigación en Sociedad y Salud",
+    "company" : "Universidad Mayor",
+    "email" : "bsolo@gmail.com",
+    "password" : "admin123",
+    "nombre" : "Ben",
+    "status" : true,
+    "username" : "bsolo"
+  }, 
+	{
+    "academicoId" : "006",
+    "apellido" : "Kenobi",
+    "area" : "Facultad de Artes",
+    "company" : "Universidad Mayor",
+    "email" : "obi-wan@gmail.com",
+    "password" : "admin123",
+    "nombre" : "Obi-Wan",
+    "status" : true,
+    "username" : "obi-wan"
+  }, 
+	{
+    "academicoId" : "007",
+    "apellido" : "Solo",
+    "area" : "Facultad de Ciencias",
+    "company" : "Universidad Mayor",
+    "email" : "hsolo@gmail.com",
+    "password" : "admin123",
+    "nombre" : "Han",
+    "status" : true,
+    "username" : "hsolo"
+  }, 
+	{
+    "academicoId" : "008",
+    "apellido" : "Utah",
+    "area" : "Facultad de Humanidades",
+    "company" : "Universidad Mayor",
+    "email" : "jutah@gmail.com",
+    "password" : "admin123",
+    "nombre" : "Johnny",
+    "status" : true,
+    "username" : "jutah"
+  }, 
+	{
+		"academicoId": "009",
+		"apellido": "Pappas",
+		"area": "Facultad de Humanidades",
+		"company": "Universidad Mayor",
+		"email": "jutah@gmail.com",
+		"password": "aadmin123",
+		"nombre": "Angelo",
+		"status": true,
+		"username": "pappas"
+	},
+	{
+    "academicoId" : "010",
+    "apellido" : "Tannen",
+    "area" : "Facultad de Ciencias",
+    "company" : "Universidad Mayor",
+    "email" : "btannen@gmail.com",
+    "password" : "admin123",
+    "nombre" : "Biff Howard",
+    "status" : true,
+    "username" : "btannen"
+  }, 
+	{
+    "academicoId" : "011",
+    "apellido" : "Organa",
+    "area" : "Facultad de Ciencias",
+    "company" : "Universidad Mayor",
+    "email" : "lorgana@gmail.com",
+    "password" : "admin123",
+    "nombre" : "Leia",
+    "status" : true,
+    "username" : "lorgana"
+  }, 
+	{
+    "academicoId" : "012",
+    "apellido" : "Amidala",
+    "company" : "Universidad Mayor",
+    "email" : "pamidala@gmail.com",
+    "password" : "admin123",
+    "nombre" : "Padmé",
+    "status" : true,
+    "username" : "pamidala"
+  	}
+	]
+}

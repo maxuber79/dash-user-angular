@@ -6,9 +6,6 @@ import { MatTableDataSource } from '@angular/material/table';
 import { Usuario } from 'src/app/interfaces/usuario';
 import { UsuariosService } from 'src/app/services/usuarios.service';
 
-
-
-
 @Component({
   selector: 'app-usuarios',
   templateUrl: './usuarios.component.html',
@@ -21,7 +18,7 @@ export class UsuariosComponent implements OnInit {
 
 	listUsuarios: Usuario[] = [];
 
-	displayedColumns: string[] = ['usuario', 'nombre', 'apellido', 'sexo', 'acciones'];
+	displayedColumns: string[] = ['usuario', 'nombre', 'apellido', 'phone', 'email', 'acciones'];
 	dataSource!: MatTableDataSource<any>;
 
 	@ViewChild( MatPaginator) paginator!: MatPaginator;

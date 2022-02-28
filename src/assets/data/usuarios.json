@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Juan Rodriguez",
+		"email": " juan@rodriguez.org ",
+		"password": "hunter1",
+		"phone": {
+			"number": "1234567",
+			"citycode": "1",
+			"contrycode": "57"
+		}
+	},
+	{
+		"name": "Juan Rodriguez",
+		"email": " juan@rodriguez.org ",
+		"password": "hunter2",
+		"phone": {
+			"number": "1234567",
+			"citycode": "2",
+			"contrycode": "60"
+		}
+	},
+	{
+		"name": "Juan Rodriguez",
+		"email": " juan@rodriguez.org ",
+		"password": "hunter3",
+		"phone": {
+			"number": "1234567",
+			"citycode": "3",
+			"contrycode": "61"
+		}
+	},
+	{
+		"name": "Juan Rodriguez",
+		"email": " juan@rodriguez.org ",
+		"password": "hunter4",
+		"phone": {
+			"number": "1234567",
+			"citycode": "4",
+			"contrycode": "70"
+		}
+	}
+]

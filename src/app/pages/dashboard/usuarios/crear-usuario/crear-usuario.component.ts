@@ -27,9 +27,11 @@ export class CrearUsuarioComponent implements OnInit {
 		) {
 		this.form = this.fb.group({
 			usuario: ['', Validators.required],
+			password: ['', Validators.required],
 			nombre: ['', Validators.required],
 			apellido: ['', Validators.required],
-			sexo: ['', Validators.required]
+			phone: ['', Validators.required],
+			email: ['', Validators.required]
 		})
 	 }
 
@@ -42,7 +44,9 @@ export class CrearUsuarioComponent implements OnInit {
 			usuario: this.form.value.usuario,
 			nombre: this.form.value.nombre,
 			apellido: this.form.value.apellido,
-			sexo: this.form.value.sexo
+			phone: this.form.value.phone,
+			email: this.form.value.email,
+			password: this.form.value.password
 		}
 		this._usuarioService.agregarUsuario(user);
 		this.router.navigate(['/dashboard/usuarios']);
