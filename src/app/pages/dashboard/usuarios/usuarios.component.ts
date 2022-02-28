@@ -51,7 +51,15 @@ export class UsuariosComponent implements OnInit {
 		this.cargarUsuario();
 
 		this._snackBar.open('El usuario fue eliminado con exito!', '', {
-			duration: 5000,
+			duration: 1500,
+			horizontalPosition: 'center',
+			verticalPosition: 'bottom'
+		});
+	}	
+	editarUsuario() {
+		console.log('click editar usuario');
+		this._snackBar.open('Aun no esta habilitada esta sección!', '', {
+			duration: 1800,
 			horizontalPosition: 'center',
 			verticalPosition: 'bottom'
 		});
